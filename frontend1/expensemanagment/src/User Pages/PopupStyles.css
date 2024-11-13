@@ -1,0 +1,30 @@
+/* Background overlay */
+.custom-popup .popup-overlay {
+    background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+}
+
+/* Popup content styling */
+.custom-popup .popup-content {
+    background: #ffffff; /* White background */
+    padding: 20px;       /* Padding for spacing */
+    border-radius: 8px;  /* Rounded corners */
+    max-width: 400px;    /* Max width */
+    width: 80%;          /* Responsive width */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    text-align: center;  /* Center-align text */
+}
+
+/* Header styling */
+.popup-header {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333333; /* Dark text color */
+}
+
+/* Action button container */
+.popup-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+}

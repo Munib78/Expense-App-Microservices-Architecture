@@ -82,10 +82,10 @@ WSGI_APPLICATION = 'UserExpense.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'UserExpenseDatabase_Expense',
-        'USER': 'postgres',
-        'PASSWORD': 'Teachers@6351',
-        'HOST': 'localhost',  # or your database server IP
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': 'localhost', 
         'PORT': '5434', 
     }
 }
